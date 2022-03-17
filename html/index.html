@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carsonote</title>
+    <link rel="icon" href="../img/myportfolio.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style_index.css" />
+    <script src="../js/js.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="nav-down">
+        <div class="logo">
+            <a href="#"><img src="../img/logo.png" alt="" /></a>
+        </div>
+        <div class="header-item" id="nav">
+            <ul class="nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#work">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveHeader()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <section id="intro">
+        <div class="info-img">
+            <div class="img-avt"></div>
+        </div>
+        <div class="info">
+            <h1>- Trong Le Duc -</h1>
+            <h3>Web Developer</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/trongld21/"><i class="fab fa-facebook-square"></i
+            ></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/trongld/"><i class="fab fa-linkedin"></i
+            ></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github-square"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content-about">
+            <div class="grid-item">
+                <table>
+                    <tr>
+                        <th>Full name:</th>
+                        <td>Le Duc Trong</td>
+                    </tr>
+                    <tr>
+                        <th>Age:</th>
+                        <td id="age"></td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td>0337336138</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>
+                            <a href="mailto:trongld21@gmail.com">trongld21@gmail.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Address:</th>
+                        <td>Can Tho, Viet Nam</td>
+                    </tr>
+                </table>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/trongld21/"><i class="fab fa-facebook-square"></i
+              ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/trongld/"><i class="fab fa-linkedin"></i
+              ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/trongld21/"><i class="fab fa-instagram-square"></i
+              ></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-github-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Hello there!</h3>
+                <p>
+                    Currently, I am a student at FPT University Can Tho. My major is Software Engineering. I want to learn and research Web Development. Currently, I am trying hard to study and research Web Programming and related fields to expand my knowledge because it
+                    will help me a lot now and in the future. Furthermore, becoming a Full Stack Developer and connecting with people around the world who are passionate about IT is my long-term goal.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>My Resume</h2>
+        <div class="experience">
+            <div class="title">
+                <h2>Work experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="outer">
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Fresher Developer</h3>
+                            <span>Company name - 2020 - Current</span>
+
+                            <p>
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Fresher Developer</h3>
+                            <span>Company name - 2020 - Current</span>
+                            <p>
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Fresher Developer</h3>
+                            <span>Company name - 2020 - Current</span>
+                            <p>
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="education experience">
+            <div class="title">
+                <h2>education</h2>
+            </div>
+            <div class="timeline">
+                <div class="outer">
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Software Engineering</h3>
+                            <span>FPT University - 10/2019 - Current</span>
+
+                            <p>
+                                I'm a 15th class student majoring in software engineering in the field of information technology.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Web Design for Everybody Course</h3>
+                            <span>Coursera - 08/2021</span>
+
+                            <p>
+                                This Specialization covers how to write syntactically correct HTML5 and CSS3, and how to create interactive web experiences with JavaScript. Mastering this range of technologies will allow you to develop high quality web sites that, work seamlessly on
+                                a mobile, tablet, and large screen browsers accessible. During the capstone, you will develop a professional-quality web portfolio demonstrating your growth as a web developer and your knowledge of accessible web design.
+                                This will include your ability to design and implement a responsive site that utilizes tools to create a site that is accessible to a wide audience, including those with visual, audial, physical, and cognitive impairments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">HTML, CSS từ Zero đến Hero Course</h3>
+                            <span>F8 - 06/2021 - Current</span>
+
+                            <p>
+                                Frontend, HTML, and CSS programming course from basic to advanced.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">
+                                Web Design for Beginners: Real World Coding in HTML & CSS Course
+                            </h3>
+                            <span>Udemy - 05/2021</span>
+
+                            <p>
+                                Launch a career as a web designer by learning HTML5, CSS3, responsive design, Sass and more!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h3 class="title">Responsive Web Design Course</h3>
+                            <span>freeCodeCamp.org - 04/2021</span>
+
+                            <p>
+                                In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-content">
+            <div class="services-card">
+                <div class="icon"><i class="fas fa-brush"></i></div>
+                <h3>Web Design</h3>
+            </div>
+            <div class="services-card">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h3>Web Development</h3>
+            </div>
+            <div class="services-card">
+                <div class="icon"><i class="fas fa-headset"></i></div>
+                <h3>Support</h3>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Professional Skills</h2>
+        <div class="skill-content">
+            <div class="skill-item">
+                <div class="icon"><i class="fab fa-html5"></i></div>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fab fa-css3-alt"></i></div>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fab fa-js"></i></div>
+                <h3>Javascript</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h3>.Net</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fab fa-java"></i></div>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-item">
+                <div class="icon"><i class="fas fa-language"></i></div>
+                <h3>Japanese</h3>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <h2>Work</h2>
+        <div class="work-content">
+            <div class="work-project">
+                <a href="https://gitlab.com/tk_team/TKBook">
+                    <div class="img-project">
+                        <img src="../img/TKBook.jpg" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>TKBook</h3>
+                        <p>
+                            Website to read books online. <br />Team size: 5 people
+                            <br />Technologies used: HTML5, CSS3, JQuery, Bootstrap, Javascript, Asp.Net, MSSQL, Git...
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="https://gitlab.com/LeDucTrong217/frontend-cutepetshop">
+                    <div class="img-project">
+                        <img src="../img/cutepet.jpg" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>Frontend Cutepetshop</h3>
+                        <p>
+                            Front-end website selling pet supplies <br />Team Size: 1 person
+                            <br />Technology used: HTML5, CSS3
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="https://gitlab.com/LeDucTrong217/myportfolio">
+                    <div class="img-project">
+                        <img src="../img/myportfolio.png" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>My Portfolio</h3>
+                        <p>
+                            My portfolio <br /> Technology used: HTML5, CSS3, Javascript, jQuery
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="#">
+                    <div class="img-project">
+                        <img src="../img/bg.png" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>Project Name</h3>
+                        <p>Mô tả</p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="#">
+                    <div class="img-project">
+                        <img src="../img/bg.png" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>Project Name</h3>
+                        <p>Mô tả</p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="#">
+                    <div class="img-project">
+                        <img src="../img/bg.png" alt="" />
+                    </div>
+
+                    <div class="info-project">
+                        <h3>Project Name</h3>
+                        <p>Mô tả</p>
+                    </div>
+                </a>
+            </div>
+            <div class="work-project">
+                <a href="#">
+                    <div class="img-project">
+                        <img src="../img/bg.png" alt="" />
+                    </div>
+                    <div class="info-project">
+                        <h3>Project Name</h3>
+                        <p>Mô tả</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>contact me</h2>
+        <div class="contact-content">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.2637788610792!2d105.7288248291608!3d10.012306320233229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecc7fc26528ca684!2zMTDCsDAwJzQ0LjMiTiAxMDXCsDQzJzQ1LjciRQ!5e0!3m2!1sen!2s!4v1647191435351!5m2!1sen!2s"
+                    style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <form id="form" method="post" action="#">
+                <input id="name" type="text" placeholder="NAME" />
+                <input id="email" type="text" placeholder="E-MAIL" />
+                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <input id="submit" type="submit" value="Send Message" />
+            </form>
+        </div>
+    </section>
+    <hr />
+    <footer>
+        Copyright ©
+        <span id="year"></span> Carsonote
+    </footer>
+    <!-- Button Back To Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fab fa-octopus-deploy"></i>
+    </button>
+</body>
+<script>
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $("header").outerHeight();
+
+    $(window).scroll(function(event) {
+        didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta) return;
+
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $("header").removeClass("nav-down").addClass("nav-up");
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                $("header").removeClass("nav-up").addClass("nav-down");
+            }
+        }
+
+        lastScrollTop = st;
+    }
+
+    // Set year and age with JS
+    let date = new Date().getFullYear();
+    document.getElementById("year").innerHTML = date;
+    document.getElementById("age").innerHTML = date - 2001;
+
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+</html>
