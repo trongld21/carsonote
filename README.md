@@ -1,4 +1,4 @@
 # carsonote.github.io
-My portfolio 
-TrongLD
-FPT University
+- My portfolio 
+- TrongLD
+- FPT University
