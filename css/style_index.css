@@ -8,6 +8,23 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+    /* Add vertical scrollbar */
+}
+
+
+/* Animation */
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 
@@ -97,6 +114,7 @@ header .icon {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100vw;
 }
 
 #intro .info-img {
