@@ -58,3 +58,19 @@ function clear() {
     requestAnimationFrame(clear)
 }
 clear()
+
+
+const span = document.querySelectorAll('.circle span')
+const bgs = ['red', 'blue', 'green', 'white', 'yellow', 'aqua']
+
+setInterval(() => {
+
+    for (let i = 0; i < span.length; i++) {
+        let color = bgs[Math.floor(Math.random() * bgs.length)]
+        span[i].style.border = `5px solid ${color}`
+        span[i].style.animationName = "rotation";
+        span[i].style.animationDuration = "15s";
+        span[i].style.animationIterationCount = "infinite"
+        span[i].style.animationDelay = i + "s"
+    }
+}, 200)

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carsonote</title>
+    <link rel="icon" href="img/logo.svg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style_relax.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <button class="back-home" style="--content: 'Back to home!'">
+      <div class="left"></div>
+      <a href="index.html"> Back to home!</a>
+      <div class="right"></div>
+    </button>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="house" src="./img/forest_house/scene.gltf"></a-asset-item>
+            <a-asset-item id="bird" response-type="arraybuffer" src="./img/birds/scene.gltf"></a-asset-item>
+            <img id="logo" src="./img/logo.svg" />
+            <img id="background" src="./img/bg_relax_png.png" />
+        </a-assets>
+        <a-entity gltf-model="#house" scale="15 15 15" position="-1 0.5 -1" animation="property: rotation; to: 0 -360 0; dur: 30000; easing: linear; loop: true"></a-entity>
+        <a-gltf-model src="#bird" scale="1 1 1" position="-25 10 -25" animation-mixer="clip:Scene" animation="property: position; to: 25 10 -25; dur: 15000; easing: linear; loop: true"></a-gltf-model>
+        <a-sky color="#ECECEC" src="#background" repeat="2 1"></a-sky>
+    </a-scene>
+</body>
+
+</html>
